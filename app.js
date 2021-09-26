@@ -286,7 +286,7 @@ function Elf(name, weapon) {
 }
 
 Elf.prototype.attack = function() {
-   return 'This is my brutal attack with my ' + this.weaponos + ' !!'
+   return 'This is my attack with my ' + this.weaponos + ' !'
 }
 
 const Sam = new Elf('sword', 'axe')
