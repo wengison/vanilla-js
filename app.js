@@ -280,17 +280,17 @@
 // console.log(John.attack())
 
 // Consturctor functions
-function Elf(name, weapon) {
-   this.nameos = name;
-   this.weaponos = weapon;
-}
+// function Elf(name, weapon) {
+//    this.nameos = name;
+//    this.weaponos = weapon;
+// }
 
-Elf.prototype.attack = function() {
-   return 'This is my attack with my ' + this.weaponos + ' !'
-}
+// Elf.prototype.attack = function() {
+//    return 'This is my attack with my ' + this.weaponos + ' !'
+// }
 
-const Sam = new Elf('sword', 'axe')
-console.log(Sam.attack())
+// const Sam = new Elf('sword', 'axe')
+// console.log(Sam.attack())
 // console.log(Sam.nameos)
 // console.log(Sam)
 // let x = Sam.nameos
@@ -300,3 +300,87 @@ console.log(Sam.attack())
 
 
 // const Honzin = new Funkcicka('Honzos', '13')
+
+
+// const Person = function(name, age, skill){
+//    this.name = name;
+//    this.age = age;
+//    this.skill = skill
+// }
+
+// Person.prototype.skillos = function () {
+//    return 'My skill is ' + this.skill;
+// }
+
+// const Honza = new Person('Honza', 23, 'junior')
+
+// console.log(Honza)
+// console.log(Honza.skillos())
+
+// This this this this this this this this this this this this this this this this this this this this //
+
+
+// new binding this
+// function Person(name, age) {
+//    this.name = name,
+//    this.age = age
+// }
+
+// const person1 = new Person('Venca', 26)
+// console.log(person1)
+
+// //implicit binding
+// const person2 = {
+//    name: 'Jonn',
+//    age: '33',
+//    hi() {
+//       console.log('hi' + this.name)
+//    }
+// }
+// console.log(person2)
+
+// //explicit binding
+// const person3 = {
+//    name: 'Vengi',
+//    age: 23,
+//    hi: function() {
+//       console.log('hi ' + this.setTimeout)
+//    }.bind(window)
+// }
+// person3.hi()
+
+// //arrow function
+// const person4 = {
+//    name: 'Elliot',
+//    age: 29,
+//    hi: function() {
+//       var inner = () => {
+//          console.log('hi ' + this.name)
+//       }
+//       return inner()
+//    }
+// }
+// person4.hi()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
